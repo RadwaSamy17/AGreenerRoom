@@ -1,0 +1,281 @@
+body {
+    background-color: #f9f5eb;
+}
+
+h1 {
+    font-size: 38px;
+    font-family: Caslon Bold, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Caslon Bold, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-size: 17px;
+    font-family: Questrial, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.image {
+
+    width: 100%;
+    height: 400px;
+    display: block;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(imag/squamish-plants_1400x.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    /*filter: brightness(50%);*/
+    /*filter: blur(0.05px);*/
+    margin-bottom: 80px;
+
+}
+
+.image h2 {
+    /*font-family: Questrial, sans-serif;*/
+    font-family: Caslon Bold, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 46px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 150px;
+    margin-bottom: 20px;
+    filter: brightness(100%);
+
+
+}
+
+.image p {
+    /*font-family: Questrial, sans-serif;*/
+    font-family: Questrial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    text-align: center;
+
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cont_left {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 70px;
+
+}
+
+.card {
+    background-color: #f9f5eb;
+    width: 265px;
+    height: 700px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    /* padding: 30px;*/
+    margin: 10px;
+    text-align: left;
+    color: #3a4639;
+    margin-right: 3px;
+    padding-top: 0px;
+    padding-right: 20px;
+
+
+}
+
+.card.icon {
+
+    margin-left: -60px;
+    display: block;
+    
+}
+.info h2 {
+    font-size: 30px;
+    font-family: Caslon Bold, serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 20px;
+
+}
+img{
+    border-radius: 8px
+}
+.info p {
+    font-size: 17px;
+    font-family: Questrial, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-left: 20px;
+
+}
+
+.inputt {
+    font-size: 17px;
+    font-family: Questrial, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 20px;
+    background-color: #ebe8df;
+    border: 2px solid #ebe8df;
+    border-radius: 4px;
+    color: #7a917b;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 170px;
+    padding: 5px;
+
+}
+
+.inputt:hover {
+    background-color: #7a917b;
+    border: 2px solid #7a917b;
+    color: #f9f5eb;
+
+}
+
+.reed_button {
+    font-family: Questrial, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    margin-left: 20px;
+    background-color: #354638;
+    border: 2px solid #354638;
+    color: #fffefe;
+    text-align: center;
+    display: inline-block;
+    padding: 12px 15px;
+    margin-top: -50px;
+}
+
+.reed_button:hover {
+    background-color: #c2cfb0;
+    color: #354638;
+
+}
+
+.card.iconn {
+    margin-left: -60px;
+    display: block;
+    width: 200px;
+    height: 90px;
+}
+
+.inputplant {
+    font-family: Questrial, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    background-color: #ebe8df;
+    border: 2px solid #ebe8df;
+    border-radius: 4px;
+    color: #7a917b;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    padding: 5px;
+
+}
+
+.inputplant:hover {
+    background-color: #7a917b;
+    border: 2px solid #7a917b;
+    color: #f9f5eb;
+
+}
+
+.cont_right {
+    background-color: #f9f5eb;
+    width: 240px;
+    height: 1000px;
+    border: 1px solid #f9f5eb;
+    border-radius: 8px;
+    /* padding: 30px;*/
+
+    text-align: left;
+    color: #3a4639;
+    margin-right: 3px;
+    padding-top: 0px;
+    padding-right: 20px;
+    margin-left: 300px;
+
+
+}
+
+.cont_right.iconnn {
+    display: block;
+    width: 240px;
+    height: 150px;
+    margin-right: -10px;
+
+}
+
+.cont_right h2 {
+    font-size: 30px;
+    font-family: Caslon Bold, serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 20px;
+
+}
+
+.cont_right p {
+    font-size: 17px;
+    font-family: Questrial, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-left: 20px;
+
+}
+
+.search {
+    border: 2px solid black;
+    border-radius: 0px;
+    padding: 10px 40px;
+    font-family: Questrial, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 10%
+}
+
+.searchh {
+    color: black;
+    float: left;
+}
+
+.Brand {
+    font-family: Questrial, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    margin-left: 20px;
+    background-color: #354638;
+    border: 2px solid #354638;
+    color: #fffefe;
+    text-align: center;
+    display: inline-block;
+    padding: 12px 15px;
+    margin-top: 150px;
+}
+
+
+.Brand:hover {
+    background-color: #c2cfb0;
+    color: #354638;
+}
