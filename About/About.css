@@ -1,0 +1,248 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+/* تحديد استايلات العناصر الرئيسية */
+body {
+    background-color:#F8F4EB;
+  }
+  hr{
+    background-color: #C2CEB1;
+    height: 1px;
+    width: 100%;
+    border: none;
+}
+  /* تحديد استايلات الصفحة */
+  .page-container {
+    padding-top: 1%;
+    background-color:#F8F4EB;
+    border-radius: 5px;
+    position: relative;
+  }
+.page-container h1{
+    width: 100%;
+    height: 700px;
+    background: url(https://cdn.shopify.com/s/files/1/0655/1394/7395/files/plant-expert-kelly-evans-a-greener-room_2000x.jpg?v=1658860988);
+    background-size: cover;
+    background-position: center;
+    padding: 25% 0px;
+    /*filter: brightness(50%);*/
+    /*filter: blur(0.05px);*/
+    margin-bottom: 80px;
+    text-align: center;
+    color: white;
+}
+  /* تحديد استايلات الصورة */
+  img {
+    max-width: 100%;
+    height: auto;
+    /*margin-top: 10px;*/
+    display: block;
+  }
+  .container{
+    width: 100%;
+   display: flex;
+   margin: auto;
+   background-color: #C2CEB1;
+      border: 2px solid ;
+      margin: 10% 0px
+   
+   }
+   
+   h1{font-size: 38px;
+    font-family: Caslon Bold,serif;
+    font-weight: 400;
+    font-style: normal;}
+    p{
+      font-size: 17px;
+      font-family: Questrial,sans-serif;
+      font-weight: 400;
+      line-height: 1.5;
+  }
+    .page-container img{
+         width: 100%;
+    height: 100%;
+    display: block;
+    }
+   .section_one .content1{
+       width: 50%;
+       text-align: center;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin: 10%;
+       height: 400px;
+       background-color: #C2CEB1;
+   }
+   
+   .section_one .content2{
+       width: 50%;
+       border-radius: 10px;
+       color: #fff;
+       border-color: #0000;
+       text-align: right;
+      margin: auto;
+   
+   }
+   .section_one .content2 img{
+       width: 70%;
+       border-radius: 70%;
+       border: 1px solid black;
+      
+   }
+   
+
+   .section_two .content3{
+       width: 70%;
+       text-align: left;
+       display: flex;
+       justify-content: center;
+       align-items: left;
+       padding-right: 5%;
+       height: 400px;
+       
+       
+   }
+.section_two h1{
+    margin-left: 14%;
+}
+   .section_two .content4{
+    width: 70%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    height: 400px;
+    
+   
+   
+   }
+   .container2{
+    width: 100%;
+   display: flex;
+   padding: 2% 15%
+   
+   
+   }
+   .section_three .content5{
+    width: 200px 300px;
+    border-radius: 10px;
+    color: #fff;
+    border-color: #0000;
+    text-align: right;
+   margin-right: 10px;
+   padding-right:0px ;
+   padding-left: 10px;
+   margin-top: 110px;
+    
+    
+}
+
+.section_three .content6{
+  width: 200px 300px;
+  border-radius: 10px;
+  color: #fff;
+  border-color: #0000;
+  text-align: right;
+  margin-right: 10px;
+  padding-right:0px ;
+  padding-left: 10px;
+  margin-top: 110px;
+}
+.section_three .content7{
+  width: 50%;
+  border-radius: 10px;
+ 
+  border-color: #0000;
+
+margin: 240px 150px;
+
+text-align: left;
+
+
+}
+.container3{
+ width: 100%;
+display: flex;
+background-color:#C2CEB1;
+margin-bottom: 5%
+
+
+
+}
+.section_four .content8 {
+  width: 100%;
+  border-radius: 10px;
+  border-color: #0000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.section_four .content8 h1 {
+  display: block;
+  text-align: center;
+  text-indent: 0;
+  margin-bottom: 10px;
+}
+
+.section_four .content8 p {
+  display: block;
+  text-align: center;
+  text-indent: 0;
+  margin-top: 10px;
+}
+.section_five .content9{
+  width: 30%;
+  
+  color: #fff;
+  border-color: #0000;
+ 
+ float: left;
+  
+  
+}
+
+.section_five .content10{
+width: 30%;
+
+color: #fff;
+border-color: #0000;
+
+float: left;
+}
+.section_five .content11{
+width: 30%;
+
+
+border-color: #0000;
+
+
+
+float: right;
+margin-bottom: 60px;
+padding-right: 50px;
+
+
+}
+.container4{
+    width: 100%;
+    display: flex;
+    padding: 0% 5%;
+    justify-content: center;
+    align-items: center;
+}
+.container4 img{
+    display: block;
+    margin: auto;
+}
+.section_six .content12{
+  padding-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
